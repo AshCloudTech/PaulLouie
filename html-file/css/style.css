@@ -177,7 +177,7 @@ li {
 }
 .btn-one:hover{
     color: #67ad39;
-    background: #d59951;
+    background: #014687;
 }
 .btn-two{
     color: #f36727;
@@ -1016,19 +1016,28 @@ select:focus {
     background: #ffffff;
     padding: 0;
 }
-.header-style1{
+.header-style1 {
     position: relative;
-    display: block;
+    display: flex;
+    align-items: center;
+    height: 80px; /* adjust if needed */
 }
+
 .header-style1-logo {
     position: relative;
-    display: block;
+    display: flex;
+    align-items: center;
     max-width: 220px;
-    width: 100%;
+    height: 80px;
     margin: 0;
     z-index: 1;
-    padding: 43px 0 47px;
 }
+
+.header-style1-logo img {
+    max-height: 60px; /* prevents logo from being too tall */
+    height: auto;
+}
+
 .header-style1-logo:before{
     position: absolute;
     top: 0;
@@ -4828,3 +4837,26 @@ box-shadow: 0px 3px 5px 2px #f8f8f8;
     background: #014687;
     color: #fff;
 }
+/* Make all images equal height and properly cropped */
+.equal-img {
+    width: 100%;
+    height: 250px;         /* adjust height as needed */
+    object-fit: cover;     /* ensures images fill area without distortion */
+    object-position: center;
+}
+
+/* Ensure all cards stretch equally */
+.single-blog-post {
+    display: flex;
+    flex-direction: column;
+}
+
+.single-blog-post .text-holder {
+    flex-grow: 1;
+}
+
+
+
+
+
+
