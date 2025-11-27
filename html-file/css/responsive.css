@@ -1,0 +1,1646 @@
+
+/* Large Layout: 1200px. */
+@media only screen and (min-width: 1200px){
+.container {padding: 0;}
+.container-fluid {padding: 0;}    
+
+    
+    
+}
+
+
+@media only screen and (min-width: 1200px) and (max-width: 1500px) {  
+.main-header .nav-outer .main-menu {
+    padding-left: 140px;
+}    
+    
+    
+}
+
+
+/* Medium screen  */ 
+@media only screen and (min-width: 992px) and (max-width: 1199px) {  
+
+/*** 
+=============================================
+    Top Bar Style1 Style
+=============================================
+***/     
+.top-left-style1 {
+    max-width: 650px;
+}
+
+/*** 
+=============================================
+    Header Style1 Area Style
+=============================================
+***/ 
+.headers1-header-right {
+    max-width: 710px;
+}    
+.main-menu {
+    padding-left: 30px;
+}
+.main-menu .navigation li {
+    margin-right: 30px;
+}
+
+/*** 
+=============================================
+    About Area Style
+=============================================
+***/ 
+.about-image-box img{
+    width: 100%;
+}    
+.about-text {
+    padding-top: 50px;
+    padding-bottom: 35px;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-left: 0;
+    border-left: 0px solid #ffffff;
+}
+.about-text .sec-title {
+    padding-bottom: 28px;
+}    
+.free-quote-box {
+    max-width: 470px;
+}    
+    
+/*** 
+=============================================
+    Base Area Style
+=============================================
+***/   
+.single-base-box {
+    max-width: 232px;
+}    
+
+/*** 
+=============================================
+    Choose Area Style
+=============================================
+***/     
+.choose-image-box {
+    margin-right: 0px;
+    max-width: 700px;
+}    
+.choose-image-box .overlay-box {
+    max-width: 550px;
+}    
+.choose-text-box {
+    padding-top: 60px;
+}  
+
+/*** 
+=============================================
+    Location Area Style
+=============================================
+***/      
+.single-location-box.five {
+    right: 230px;
+    bottom: 100px;
+} 
+    
+/*** 
+=============================================
+    Footer Area Style
+=============================================
+***/      
+.single-footer-widget.marbtm50 {
+    margin-bottom: 50px;
+}    
+
+    
+    
+    
+    
+/*** 
+=============================================
+    Main Header Style
+=============================================
+***/     
+.main-header .nav-outer .main-menu {
+    padding-left: 70px;
+}    
+    
+/*** 
+=============================================
+    Book Expert Area Style
+=============================================
+***/
+.book-expert-area {
+    padding: 120px 0 0px;
+}    
+.book-expert-image-box {
+    margin-left: 0;
+    margin-top: 30px;
+}    
+.book-expert-image-box .img-box-2 {
+    position: relative;
+    border-left: 30px solid #ffffff;
+    border-top: 30px solid #ffffff;
+    max-width: 530px;
+    width: 100%;
+    height: auto;
+    top: -120px;
+    z-index: 3;
+    left: 70px;
+}    
+    
+/*** 
+=============================================
+    Company Info Area Style
+=============================================
+***/     
+.company-info-content {
+    padding-left: 0;
+    margin-top: 50px;
+}    
+
+/*** 
+=============================================
+    Book With Confidence Area Style
+=============================================
+***/  
+.book-with-confidence-area {
+    padding-top: 120px;
+}    
+.confidence-image-box img {
+    max-width: 100%;
+    width: 100%;
+    float: none;
+}    
+.confidence-content {
+    padding: 50px 0 120px;
+    margin-left: 0;
+}    
+
+/*** 
+=============================================
+    Slogan Area Style2 Style
+=============================================
+***/
+.slogan-area-style2 .title {
+    margin: 15px 0;
+}    
+.slogan-area-style2 .title h1 {
+    font-size: 30px;
+    line-height: 40px;
+}    
+
+/*** 
+=============================================
+    Services Style1 Area Style
+=============================================
+***/ 
+.single-service-style1 .text-holder {
+    padding: 50px 30px 41px;
+    padding-right: 30px;
+}    
+.single-service-style1 .text-holder .text-box h3 {
+    font-size: 22px;
+}    
+
+/*** 
+=============================================
+    Contact Address Area Style
+=============================================
+***/     
+.single-address-box {
+    padding: 43px 10px 41px;
+}    
+    
+/*** 
+=============================================
+    Latest Blog Area style
+=============================================
+***/    
+.single-blog-post .text-holder {
+    padding: 35px 25px 33px;
+}        
+
+/*** 
+=============================================
+    Quote Area style
+=============================================
+***/ 
+.quote-form {
+    padding: 30px;
+    padding-right: 60px;
+} 
+.quote-form .sec-title {
+    padding-bottom: 22px;
+}    
+.quote-image-box {
+    margin-left: -30px;
+}    
+.free-quote-box.style2 {
+    border-right: none;
+    max-width: 500px;
+    padding-top: 43px;
+    padding-bottom: 40px;
+}    
+    
+    
+   
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+}
+
+
+
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) {  
+    
+/*** 
+=============================================
+    Top Bar Style1 Style
+=============================================
+***/ 
+.top-bar-style1 {
+    padding: 16px 0 19px;
+}    
+.top-left-style1 {
+    max-width: 100%;
+    float: none !important;
+}
+.top-contact-info {
+    text-align: center;
+}    
+.top-contact-info li {
+    float: none;
+    margin-right: 0;
+    margin: 0 15px;
+}
+.top-right-style1 {
+    max-width: 100%;
+    float: none !important;
+    overflow: hidden;
+} 
+.top-right-style1 .sociallinks-style-one {
+    text-align: center;
+    float: none !important;
+    margin-top: 5px;
+}
+.top-right-style1 .sociallinks-style-one li {
+    float: none;
+    margin-right: 0;
+    margin: 0 10px;
+}    
+
+/*** 
+=============================================
+    Header Style1 Area Style
+=============================================
+***/
+.header-style1-logo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    max-width: 180px;
+    width: 100%;
+    padding: 23px 0 27px;
+    float: none !important;
+    z-index: 333;
+}
+.headers1-header-right {
+    max-width: 100%;
+    float: none !important;
+}  
+.headers1-button {
+    position: absolute;
+    top: 0;
+    left: 190px;
+    float: none;
+    width: 120px;
+    padding: 10px 0;
+    z-index: 333;
+}
+.headers1-button a {
+    width: 150px;
+    font-size: 15px;
+}   
+    
+/*** 
+=============================================
+    About Area Style
+=============================================
+***/   
+.about-image-box img{
+    width: 100%;
+}    
+.about-text {
+    padding-top: 50px;
+    padding-bottom: 35px;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-left: 0;
+    border-left: 0px solid #ffffff;
+}
+.about-text .sec-title {
+    padding-bottom: 28px;
+}        
+.free-quote-box {
+    max-width: 470px;
+}    
+   
+/*** 
+=============================================
+    Base Area Style
+=============================================
+***/   
+.single-base-box {
+    max-width: 345px;
+    border-right: none;
+}
+    
+/*** 
+=============================================
+    Choose Area Style
+=============================================
+***/     
+.choose-image-box {
+    margin-right: 0px;
+    max-width: 700px;
+}    
+.choose-image-box .overlay-box {
+    max-width: 550px;
+}    
+.choose-text-box {
+    padding-top: 60px;
+}  
+    
+/*** 
+=============================================
+    Location Area Style
+=============================================
+***/      
+.single-location-box.five {
+    right: 230px;
+    bottom: 100px;
+} 
+        
+/*** 
+=============================================
+    Quote Area Style
+=============================================
+***/
+.quote-form:before {
+    display: none;
+}      
+.quote-image-box {
+    margin-left: 0;
+    margin-top: 30px;
+}    
+    
+/*** 
+=============================================
+    Footer Area Style
+=============================================
+***/      
+.single-footer-widget.marbtm50 {
+    margin-bottom: 50px;
+}   
+    
+    
+    
+    
+    
+/*** 
+=============================================
+    Main Header Style
+=============================================
+***/
+.main-header {
+    padding: 10px 0;
+} 
+.main-header.fixed-header {
+    padding: 0;
+}    
+.main-header .main-box .logo-box {
+    position: absolute;
+    top: 0;
+    left: 50px;
+    float: none;
+    z-index: 13;
+    padding: 25px 0;
+} 
+.main-header.fixed-header .main-box .logo-box {
+    padding: 25px 0px;
+}    
+.main-header .nav-outer {
+    float: none;
+    display: block;
+    width: 100%;
+}
+.main-header .nav-outer .main-menu {
+    padding-left: 0px;
+}      
+.main-header .header-button {
+    position: absolute !important;
+    top: 0;
+    left: 260px;
+    float: none !important;
+    padding: 10px 0 !important;
+    z-index: 33;
+}   
+    
+/*** 
+=============================================
+    Book Expert Area Style
+=============================================
+***/
+.book-expert-area {
+    padding: 120px 0 0px;
+}    
+.book-expert-image-box {
+    margin-left: 0;
+    margin-top: 30px;
+}    
+.book-expert-image-box .img-box-2 {
+    position: relative;
+    border-left: 30px solid #ffffff;
+    border-top: 30px solid #ffffff;
+    max-width: 530px;
+    width: 100%;
+    height: auto;
+    top: -120px;
+    z-index: 3;
+    left: 70px;
+}    
+  
+/*** 
+=============================================
+    Subscribe Area Style
+=============================================
+***/
+.subscribe-area {
+    padding-top: 120px;
+    padding-bottom: 130px;
+}    
+.subscribe-title {
+    display: block;
+    margin: 0px 0 18px;
+    text-align: center;
+}    
+.subscribe-form {
+    margin: 0 auto;
+}    
+.subscribe-area .title {
+    bottom: -80px;
+    font-size: 165px;
+}    
+    
+/*** 
+=============================================
+    Company Info Area Style
+=============================================
+***/     
+.company-info-content {
+    padding-left: 0;
+    margin-top: 50px;
+}       
+    
+/*** 
+=============================================
+    Book With Confidence Area Style
+=============================================
+***/  
+.book-with-confidence-area {
+    padding-top: 120px;
+}    
+.confidence-image-box img {
+    max-width: 100%;
+    width: 100%;
+    float: none;
+}    
+.confidence-content {
+    padding: 50px 0 120px;
+    margin-left: 0;
+}    
+    
+/*** 
+=============================================
+    Slogan Area Style2 Style
+=============================================
+***/
+.slogan-area-style2 {
+    padding: 110px 0 120px;
+}    
+.slogan-area-style2 .title {
+    display: block;
+    margin: 0px 0 20px;
+    float: none !important;
+    text-align: center;
+}
+.slogan-area-style2 .button {
+    float: none !important;
+    display: block;
+    text-align: center;
+}    
+
+/*** 
+=============================================
+    Single Service Area Style
+=============================================
+***/    
+.single-service-sidebar {
+    margin-top: 80px;
+}   
+    
+/*** 
+=============================================
+    Blog Single area Style
+=============================================
+***/     
+#blog-area .sidebar-wrapper {
+    margin-top: 100px;
+}       
+
+/*** 
+=============================================
+    Quote Area Style
+=============================================
+***/  
+.quote-form {
+    padding: 60px;
+    border-bottom: none;
+    margin-bottom: 30px;
+} 
+.quote-form .sec-title {
+    padding-bottom: 36px;
+}    
+.free-quote-box.style2 {
+    border-right: none;
+    max-width: 100%;
+    padding-top: 43px;
+    padding-bottom: 40px;
+}    
+.quote-image-box img{
+    width: 100%;
+}    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+ 
+    
+}
+
+
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) { 
+
+/*** 
+=============================================
+    Top Bar Style1 Style
+=============================================
+***/ 
+.sec-title .title {
+    font-size: 40px;
+    line-height: 50px;
+}  
+.sec-title .title br{
+    display: none;
+}    
+.top-bar-style1 {
+    padding: 16px 0 19px;
+}    
+.top-left-style1 {
+    max-width: 100%;
+    float: none !important;
+}
+.top-contact-info {
+    text-align: center;
+}    
+.top-contact-info li {
+    float: none;
+    margin-right: 0;
+    margin: 0 10px;
+}
+.top-right-style1 {
+    max-width: 100%;
+    float: none !important;
+    overflow: hidden;
+} 
+.top-right-style1 .sociallinks-style-one {
+    text-align: center;
+    float: none !important;
+    margin-top: 5px;
+}
+.top-right-style1 .sociallinks-style-one li {
+    float: none;
+    margin-right: 0;
+    margin: 0 10px;
+}    
+
+/*** 
+=============================================
+    Header Style1 Area Style
+=============================================
+***/
+.header-style1-logo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    max-width: 200px;
+    width: 100%;
+    padding: 23px 0 27px;
+    float: none !important;
+    z-index: 333;
+}
+.headers1-header-right {
+    max-width: 100%;
+    float: none !important;
+}  
+.headers1-button {
+    position: absolute;
+    top: 0;
+    left: 155px;
+    float: none;
+    width: 120px;
+    padding: 10px 0;
+    z-index: 333;
+}
+.headers1-button a {
+    width: 120px;
+    font-size: 13px;
+    display: none;
+}    
+    
+/*** 
+=============================================
+    About Area Style
+=============================================
+***/    
+.about-image-box img{
+    width: 100%;
+}    
+.about-text {
+    padding-top: 50px;
+    padding-bottom: 35px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 0;
+    border-left: 0px solid #ffffff;
+}
+.about-text .sec-title {
+    padding-bottom: 26px;
+}
+.about-text .sec-title .title {
+    font-size: 30px;
+    line-height: 40px;
+}  
+.about-text .sec-title .title br{
+    display: none;
+}    
+.free-quote-box {
+    max-width: 320px;
+    margin: 0 auto;
+    padding: 30px 15px 30px;
+}  
+.free-quote-box .title {
+    padding-left: 10px;
+} 
+.free-quote-box .title span {
+    font-size: 14px;
+}    
+.free-quote-box .title h1 {
+    font-size: 24px !important;
+    margin: 2px 0 0 !important;
+}   
+    
+/*** 
+=============================================
+    Base Area Style
+=============================================
+***/ 
+.base-area .start-1 {
+    top: 0;
+    left: 0;
+}    
+.base-area .start-2 {
+    top: auto;
+    bottom: 0;
+    right: 0px;
+}    
+.single-base-box {
+    display: block;
+    float: none;
+    max-width: 290px;
+    border-right: none;
+}    
+    
+/*** 
+=============================================
+    Choose Area Style
+=============================================
+***/     
+.choose-image-box {
+    margin-right: 0px;
+    max-width: 100%;
+}    
+.choose-image-box .overlay-box {
+    max-width: 320px;
+    padding: 10px;
+}   
+.choose-text-box {
+    padding-top: 50px;
+}  
+.choose-text-box .sec-title .title {
+    font-size: 30px;
+    line-height: 40px;
+}
+.choose-text-box .sec-title .title br{
+    display: none;
+}      
+.choose-image-box .overlay-box .image {
+    width: 70px;
+} 
+.choose-image-box .overlay-box .text {
+    padding-left: 25px;
+}    
+.choose-image-box .overlay-box .text p {
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 400;
+} 
+.choose-image-box .overlay-box .text p br{
+    display: none;
+}
+.certified-company .title-holder h3 {
+    font-size: 18px;
+}
+.certified-company .title-holder h3 br{
+    display: none;
+}    
+    
+/*** 
+=============================================
+    Testimonial Section One Style
+=============================================
+***/    
+.testimonial-section-one .sec-title .title br{
+    display: none;
+}    
+.testimonial-section-one .testimonial-outer {
+    padding: 120px 20px 110px;
+}    
+.testimonial-section-one .testimonial-outer .testimonial-text {
+    display: none;
+}    
+.testimonial-block-one .inner-box .text {
+    font-size: 25px;
+    line-height: 34px;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+.testimonial-section-one .client-thumb-outer .client-thumbs-carousel {
+    max-width: 80px;
+}    
+.testimonial-section-one .client-thumb-outer .thumb-item .thumb-box {
+    width: 80px;
+    height: 80px;
+}    
+    
+/*** 
+=============================================
+    Location Area Style
+=============================================
+***/
+.location {
+    max-width: 320px;
+    margin: 0 auto;
+}  
+.single-location-box.one {
+    top: 80px;
+    left: 260px;
+}  
+.single-location-box.two {
+    top: 80px;
+    right: 230px;
+}    
+.single-location-box.three {
+    left: 160px;
+    bottom: 80px;
+}  
+.single-location-box.four {
+    left: 100px;
+    bottom: 100px;
+}  
+.single-location-box.five {
+    right: 260px;
+    bottom: 100px;
+}
+.single-location-box.one .inner-content {
+    left: -250px;
+}
+.single-location-box.three .inner-content {
+    left: -140px;
+}
+.single-location-box.four .inner-content {
+    left: -90px;
+}
+.single-location-box.five .inner-content {
+    left: 0;
+}      
+        
+/*** 
+=============================================
+    Quote Area Style
+=============================================
+***/  
+.quote-form {
+    padding: 40px;
+    border: none;
+    margin-bottom: 30px;
+}
+.quote-form:before {
+    display: none;
+}  
+.quote-form .sec-title {
+    padding-bottom: 18px;
+} 
+.quote-form .sec-title .title{
+    font-size: 30px;
+    line-height: 40px;
+}    
+.quote-image-box {
+    margin-left: 0;
+    margin-top: 30px;
+}
+.free-quote-box.style2 {
+    border-right: none;
+    max-width: 100%;
+    padding-top: 43px;
+    padding-bottom: 40px;
+}    
+.quote-image-box img{
+    width: 100%;
+}    
+        
+        
+/*** 
+=============================================
+    Footer Area Style
+=============================================
+***/      
+.single-footer-widget.marbtm50 {
+    margin-bottom: 50px;
+}       
+.single-footer-widget.pdtop50{
+    padding-top: 50px;
+}
+.footer-area .start-2 {
+    top: auto;
+    bottom: 30px;
+    right: 0px;
+}     
+
+/*** 
+=============================================
+    Footer Bottom area  style
+=============================================
+***/
+.footer-bottom-area {
+    padding: 31px 0 27px;
+}      
+.footer-bottom-area .footer-social-links {
+    float: none !important;
+}
+.footer-bottom-area .footer-social-links .sociallinks-style-one{
+    text-align: center;
+    float: none !important;
+}    
+.footer-bottom-area .footer-social-links li {
+    display: inline-block;
+    float: none;
+    margin-right: 0;
+    margin: 0 12px;
+}    
+    
+.footer-bottom-area .copyright-text {
+    float: none !important;
+    display: block;
+    margin-top: 10px;
+    text-align: center;
+}     
+ 
+ 
+    
+   
+ 
+/*** 
+=============================================
+    Main Header Style
+=============================================
+***/
+.main-header {
+    position: static;
+    padding: 10px 0;
+} 
+.main-header.fixed-header {
+    padding: 0;
+}    
+.main-header .main-box .logo-box {
+    position: absolute;
+    top: 0;
+    left: 50px;
+    float: none;
+    z-index: 13;
+    padding: 25px 0;
+    width: 160px;
+} 
+.main-header.fixed-header .main-box .logo-box {
+    padding: 25px 0px;
+}    
+.main-header .nav-outer {
+    float: none;
+    display: block;
+    width: 100%;
+}
+.main-header .nav-outer .main-menu {
+    padding-left: 0px;
+}      
+.main-header .header-button {
+    position: absolute !important;
+    top: 0;
+    left: 195px;
+    float: none !important;
+    padding: 10px 0 !important;
+    z-index: 33;
+}  
+.main-header .header-button a {
+    padding: 22px 10px 22px;
+    font-size: 14px;
+    display: none;
+} 
+    
+/*** 
+=============================================
+    Book Expert Area Style
+=============================================
+***/
+.book-expert-area {
+    padding: 120px 0 120px;
+} 
+.book-expert-text-box .sec-title {
+    padding-bottom: 21px;
+}   
+.book-expert-text-box .sec-title .title{
+    font-size: 30px;
+    line-height: 40px;
+}    
+.book-expert-image-box {
+    margin-left: 0;
+    margin-top: 30px;
+}    
+.book-expert-image-box .img-box-2 {
+    position: relative;
+    border-left: 0px solid #ffffff;
+    border-top: 30px solid #ffffff;
+    max-width: 530px;
+    width: 100%;
+    height: auto;
+    top: 0;
+    left: 0;
+    z-index: 3;
+}
+    
+/*** 
+=============================================
+    Subscribe Area Style
+=============================================
+***/
+.subscribe-area {
+    padding-top: 120px;
+    padding-bottom: 130px;
+}    
+.subscribe-title {
+    display: block;
+    margin: 0px 0 18px;
+    text-align: center;
+}    
+.subscribe-form {
+    margin: 0 auto;
+}    
+.subscribe-area .title {
+    bottom: -100px;
+    font-size: 100px;
+} 
+.subscribe-form input[type="email"] {
+    padding: 0 15px;
+    padding-right: 110px;
+}    
+.subscribe-form button {
+    width: 100px;
+    height: 70px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 58px;
+}    
+    
+/*** 
+=============================================
+    Company Info Area Style
+=============================================
+***/     
+.company-info-content {
+    padding-left: 0;
+    margin-top: 40px;
+}
+.company-info-content .sec-title {
+    padding-bottom: 18px;
+}
+.company-info-content .sec-title .title{
+    font-size: 30px;
+    line-height: 40px;
+}    
+    
+/*** 
+=============================================
+    Book With Confidence Area Style
+=============================================
+***/  
+.book-with-confidence-area {
+    padding-top: 120px;
+}    
+.confidence-image-box img {
+    max-width: 100%;
+    width: 100%;
+    float: none;
+}    
+.confidence-content {
+    padding: 50px 0 120px;
+    margin-left: 0;
+} 
+.confidence-content .sec-title{
+    padding-bottom: 22px;
+}
+.confidence-content .sec-title .title{
+    font-size: 30px;
+    line-height: 40px;
+}
+.confidence-content .inner-content ul {
+    overflow: hidden;
+    max-width: 100%;
+    margin: 0 auto;
+}    
+.confidence-content .inner-content ul li {
+    display: block;
+    float: none;
+    max-width: 100%;
+    width: 100%;
+    margin-right: 0px;
+    padding: 40px 0 31px;
+    margin: 0 auto 30px;
+}        
+.confidence-content .inner-content ul li:last-child{
+    margin-bottom: 0;
+}    
+    
+/*** 
+=============================================
+    Slogan area style
+=============================================
+***/
+.slogan-area .title {
+    margin: 0 0 29px;
+}    
+.slogan-area .title h1 {
+    font-size: 40px;
+    line-height: 50px;
+}    
+.slogan-area .title h1 br{
+    display: none;
+}    
+    
+/*** 
+=============================================
+    Slogan Area Style2 Style
+=============================================
+***/
+.slogan-area-style2 {
+    padding: 110px 0 120px;
+} 
+.slogan-area-style2 .start-1 {
+    top: 0;
+    left: 20px;
+} 
+.slogan-area-style2 .start-2 {
+    top: 0;
+    right: 0px;
+}    
+.slogan-area-style2 .title {
+    display: block;
+    margin: 0px 0 20px;
+    float: none !important;
+    text-align: center;
+}
+.slogan-area-style2 .button {
+    float: none !important;
+    display: block;
+    text-align: center;
+}    
+      
+/*** 
+=============================================
+    Single Service Area Style
+=============================================
+***/    
+.single-service-sidebar {
+    margin-top: 80px;
+}    
+.free-quote-box.service-sidebar {
+    padding: 47px 15px 47px;
+    padding-right: 15px;
+}   
+
+/*** 
+=============================================
+    Services Style1 Area Style
+=============================================
+***/      
+.single-service-style1 .text-holder {
+    padding: 50px 30px 41px;
+    padding-right: 30px;
+} 
+.single-service-style1 .text-holder .text-box h3{
+    font-size: 22px;
+}     
+    
+/*** 
+=============================================
+    Error Page Area Style
+=============================================
+***/     
+.error-sign {
+    width: 290px;
+    margin: 0 auto;
+}
+.error-sign .bottom {
+    width: 290px;
+    margin: -45px auto 0;
+}
+.not-found-text {
+    font-size: 50px;
+    line-height: 60px;
+    margin: 43px 0 29px;
+}    
+    
+/*** 
+=============================================
+    Blog Single area style
+=============================================
+***/
+#blog-area .sidebar-wrapper {
+    padding-top: 100px;
+}
+.blog-single-area .author-box .img-holder, 
+.blog-single-area .author-box .text-holder {
+    display: block;
+}    
+.blog-single-area .author-box .text-holder {
+    padding-left: 0px;
+    padding-top: 27px;
+}    
+.blog-single-area .author-box .text-holder h3 {
+    margin: 0 0 13px;
+}    
+.blog-single-area .inner-comment-box .single-comment-box {
+    position: static;
+    padding-left: 0;
+}    
+.blog-single-area .inner-comment-box .single-comment-box .img-holder {
+    position: static;
+    margin-bottom: 20px;
+}    
+.blog-single-area .inner-comment-box .single-comment-box .text-holder {
+    margin-left: 0px;
+}    
+.blog-single-area .inner-comment-box .single-comment-box .text-holder .top .name-date {
+    float: none !important;
+    display: block;
+}  
+.blog-single-area .inner-comment-box .single-comment-box .text-holder .top .reply-button {
+    float: none !important;
+    margin-top: 15px;
+}
+.blog-single-area .tag-box .tag {
+    float: none;
+}  
+.blog-single-area .tag-box .right {
+    float: none;
+    overflow: hidden;
+    margin-top: 6px;
+}
+.sidebar-wrapper .single-sidebar {
+    padding: 49px 20px 40px;
+} 
+.blog-single-area .author-box .inner-content {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 25px;
+    padding-right: 20px;
+}    
+
+/*** 
+=============================================
+    Latest Blog Area style
+=============================================
+***/    
+.single-blog-post .text-holder {
+    padding: 35px 25px 33px;
+}    
+
+/*** 
+=============================================
+    Main Author Area style
+=============================================
+***/      
+.main-author-area .text-holder {
+    margin: 29px auto 30px;
+}    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+   
+    
+}
+
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px){}
+
+@media (min-width: 992px){ 
+    
+.navbar-collapse.collapse {
+    display: block !important;
+    height: auto;
+    padding-bottom: 0;
+    overflow: visible !important;
+}
+.navbar-toggle {
+    display: none !important;
+} 
+    
+
+    
+}
+
+
+
+@media only screen and (max-width: 991px){ 
+    
+.mainmenu-area .inner-content{
+    position: relative;
+    display: block;
+}         
+.main-menu {
+    display: block;
+    float: none;
+    padding-left: 0;
+    padding-top: 17px;
+    padding-bottom: 0px;
+    z-index: 5;
+    width: 100%;
+}
+.main-menu .navigation li {
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0;
+    float: none;
+}   
+.main-menu .collapse {
+    border: none;
+    border-radius: 0px !important;
+    float: none;
+    margin: 0;
+    height: auto;
+    overflow: auto;
+    padding: 0;
+    width: 100%;
+}    
+.main-menu .collapse.in, 
+.main-menu .collapsing {
+    border: none;
+    border-radius: 0px;
+    margin: 0;
+    padding: 0;
+    border-top: none;
+}    
+.main-menu .navbar-header {
+    position: relative;
+    float: none;
+    display: block;
+    text-align: right;
+    width: 100%;
+    padding: 63px 0 0;
+    right: 0px;
+    z-index: 12;
+}    
+.main-menu .navbar-header .navbar-toggle {
+    background: #000100;
+    border: 1px dashed #000100;
+    display: inline-block;
+    border-radius: 3px;
+    float: none;
+    margin: 0;
+    z-index: 7;
+    width: 50px;
+    height: 47px;
+    cursor: pointer;
+    padding: 0 9px;
+    position: absolute;
+    top: 0;
+    right: 0px;
+}
+.main-menu .navbar-header .navbar-toggle .icon-bar {
+    display: block;
+    background: #e7e7e7;
+    width: 30px;
+    height: 2px;
+    border-radius: 1px;
+}
+.main-menu .navbar-header .navbar-toggle .icon-bar+.icon-bar {
+    margin-top: 6px;
+}     
+.main-menu .navbar-collapse > .navigation {
+    float: none !important;
+    width: 100% !important;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}   
+.main-menu .navbar-collapse .navigation > li{
+    display: block;
+    margin: 0px !important;
+    padding: 0;
+    float: none !important;
+    width:100%;
+} 
+    
+
+
+.main-menu .navbar-collapse > .navigation > li > ul,
+.main-menu .navbar-collapse > .navigation > li > ul > li > ul{
+    position: relative;
+    float: none;
+    visibility: visible;
+    opacity: 1;
+    display: none;
+    margin: 0px;
+    padding: 0;
+    left: auto !important;
+    right: auto !important;
+    top: auto !important;
+    width: 100%;
+    background: none;
+    border-radius: 0px;
+    transition: none !important;
+}  
+    
+
+    
+    
+.main-menu .navbar-collapse .navigation li,
+.main-menu .navbar-collapse .navigation li ul li,
+.main-menu .navbar-collapse .navigation li ul li ul li{
+    background: rgb(26, 122, 23);
+    border-top: 1px solid #5b4576;
+    opacity:1 !important;
+    top:0px !important;
+    left:0px !important;
+    visibility:visible !important;
+}  
+.main-menu .navbar-collapse > .navigation > li:last-child,
+.main-menu .navbar-collapse > .navigation > li > ul > li:last-child{
+    border-bottom: 1px solid #5b4576;         
+}    
+.main-menu .navbar-collapse > .navigation > li > a {
+    padding: 10px 10px !important;
+    line-height: 22px;
+    color: #ffffff;
+    text-align: left; 
+}
+        
+.main-menu .navbar-collapse .navigation li ul li{
+    padding: 0;        
+} 
+.main-menu .navbar-collapse .navigation li ul li:last-child {
+    border-bottom: none;
+}   
+.main-menu .navbar-collapse .navigation li ul li a {
+    padding: 10px 10px !important;
+    line-height: 22px;
+    color: #ffffff;
+    text-align: left;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: capitalize;
+    font-family: 'Nunito', sans-serif;
+}
+
+.main-menu .navbar-collapse .navigation li ul li a:before {
+    display: none !important;
+}
+  
+   
+.main-menu .navbar-collapse > .navigation > li > a:hover,
+.main-menu .navbar-collapse > .navigation > li > a:active,
+.main-menu .navbar-collapse > .navigation > li > a:focus{
+    
+} 
+.main-menu .navbar-collapse > .navigation > li:hover > a,
+.main-menu .navbar-collapse > .navigation > li > ul > li:hover > a,
+.main-menu .navbar-collapse > .navigation > li > ul > li > ul > li:hover > a,
+.main-menu .navbar-collapse > .navigation > li.current > a{
+    background: #014687;
+    color: #222222 !important;
+}        
+.main-menu .navbar-collapse > .navigation li.dropdown .dropdown-btn{
+    display:block;
+}  
+    
+ 
+.main-menu .navbar-collapse .navigation > li > ul{
+    border: none;
+    padding: 0;
+    margin: 0;
+} 
+.main-menu .navbar-collapse .navigation > li > ul:before{
+    display: none;
+}     
+.main-menu .navbar-collapse .navigation > li > ul > li:before {
+    display: none;
+}
+   
+    
+
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 1200px) and (max-width: 1300px) { 
+    
+#rev_slider_two_wrapper .slide-content.left-slide{ 
+    margin-left: 100px; 
+}
+    
+ 
+}
+
+
+
+
+
+
+@media only screen and (max-width: 1199px){
+#rev_slider_two_wrapper .slide-content.left-slide{ 
+    margin-left: 100px; 
+}    
+#rev_slider_two_wrapper .slide-content .big-title2{
+	font-size: 60px;
+}
+#rev_slider_two_wrapper .slide-content .text{
+	font-size: 20px;
+} 
+    
+    
+    
+}
+
+
+
+
+
+@media only screen and (max-width: 1039px){
+    
+#rev_slider_two_wrapper .slide-content.left-slide{ 
+    margin-left: 50px; 
+}  
+#rev_slider_two_wrapper .slide-content .big-title2{
+	font-size: 40px;
+}
+#rev_slider_two_wrapper .slide-content .text{
+	font-size: 18px;
+}       
+.main-slider .slide-content .btn-box a{
+    padding: 20px 30px 20px;
+}
+ 
+    
+    
+}
+
+
+
+
+
+
+@media only screen and (max-width: 777px){
+
+.tparrows{
+    display:block;
+}     
+#rev_slider_two_wrapper .slide-content .big-title2{
+	font-size: 35px;
+}
+#rev_slider_two_wrapper .slide-content .text{
+	font-size: 16px;
+}       
+#rev_slider_two_wrapper .slide-content .image-box{
+    display: none;
+} 
+.main-slider .slide-content .btn-box a{
+    padding: 17px 30px 17px;
+}
+    
+}
+
+
+
+
+
+@media only screen and (max-width: 599px) {
+/*** 
+=============================================
+    Rev slider wrapper style
+=============================================
+***/ 
+#rev_slider_two_wrapper .slide-content .big-title2{
+	font-size: 22px;
+}    
+.main-slider .slide-content .btn-box a{
+    padding: 16px 0 16px;
+    width: 140px;
+}
+  
+    
+    
+    
+    
+}
+
+
+
+@media only screen and (max-width: 479px) {          
+.main-slider .slide-content .btn-box a{
+    padding: 11px 20px 11px;
+}    
+.main-slider .slide-content .star.one {
+    display: none;
+} 
+ 
+    
+    
+    
+}
+
+
+
+
+
+
+
+
