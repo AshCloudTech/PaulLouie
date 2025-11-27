@@ -13,6 +13,8 @@
 	<link rel="stylesheet" href="css/style.css">
 	<!-- Responsive stylesheet -->
 	<link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="assets/jquery-ui-1.11.4/jquery-ui.css">
+
     <!-- Favicon -->
     <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" href="images/favicon/favicon-32x32.png" sizes="32x32">
@@ -170,7 +172,7 @@
                             <div class="col-md-12">
                                 <label>Your Name</label>
                                 <div class="input-box">
-                                    <input type="text" name="form_name" placeholder="Enter your name" required="">
+                                    <input type="text" name="form_name" placeholder="Enter your name" required>
                                     <div class="icon"><i class="fa fa-user" aria-hidden="true"></i></div>
                                 </div>
                             </div>
@@ -188,7 +190,7 @@
                             <div class="col-md-6">
                                 <label>Email</label>
                                 <div class="input-box">
-                                    <input type="email" name="form_email" placeholder="Enter email address" required="">
+                                    <input type="email" name="form_email" placeholder="Enter email address" required>
                                     <div class="icon"><i class="fa fa-envelope" aria-hidden="true"></i></div>
                                 </div>
                             </div>
@@ -262,7 +264,6 @@
                             <div class="col-md-12">
                                 <div class="input-box">
                                     <select name="one_off_clean" class="selectmenu">
-                                
                                         <option>One-off Clean</option>
                                         <option>No</option>
                                     </select>
@@ -277,7 +278,6 @@
                                 <label>One-off clean or regular maintenance?</label>
                                 <div class="input-box">
                                     <select name="maintenance_type" class="selectmenu">
-                                        <!-- <option selected>Select option</option> -->
                                         <option>One-off Clean</option>
                                         <option>Regular Maintenance</option>
                                     </select>
@@ -291,7 +291,7 @@
                             <div class="col-md-12">
                                 <label>Additional Comments</label>
                                 <div class="input-box">
-                                    <textarea name="form_message" placeholder="Your message..." required=""></textarea>
+                                    <textarea name="form_message" placeholder="Your message..." required></textarea>
                                     <div class="icon"><i class="fa fa-comment"></i></div>
                                 </div>
                             </div>
@@ -310,7 +310,6 @@
                     </form>
                 </div>
             </div>
-
         </div>
     </div>
 </section>
@@ -526,7 +525,13 @@
 
 <!-- thm custom script -->
 <script src="js/custom.js"></script>
-
+<script>
+$(function() {
+    $(".selectmenu").selectmenu({
+        width: '100%' 
+    });
+});
+</script>
 
 
 </body>
