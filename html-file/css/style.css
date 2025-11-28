@@ -1,5 +1,5 @@
 /***************************************************************************************************************
-||||||||||||||||||||||||||       MASTER STYLESHEET FOR PaulLouie             |||||||||||||||||||||||||||||||||||
+||||||||||||||||||||||||||       MASTER STYLESHEET FOR Paul Louie             |||||||||||||||||||||||||||||||||||
 ****************************************************************************************************************
 ||||||||||||||||||||||||||                TABLE OF CONTENT               |||||||||||||||||||||||||||||||||||||||
 ****************************************************************************************************************
@@ -85,6 +85,9 @@
 html,
 body { 
     height: 100%;
+     overflow-x: hidden !important;
+    width: 100%;
+    max-width: 100%;
 }
 body {
     font-family: 'Nunito', sans-serif;
@@ -151,7 +154,7 @@ li {
 
 
 .secpd1{
-    padding: 120px 0;
+    padding: 70px 0;
 }
 .secpd2{
     padding: 100px 0 60px;
@@ -2208,7 +2211,7 @@ select:focus {
     position: relative;
     display: block;
     background: #f8f5f2;
-    padding-top: 120px;
+    padding-top: 50px;
     padding-bottom: 80px;
 }
 .single-blog-post {
