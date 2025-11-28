@@ -331,6 +331,7 @@
 }
 .headers1-button a {
     width: 150px;
+    display: none;
     font-size: 15px;
 }   
     
@@ -1487,7 +1488,7 @@
     color: #222222 !important;
 }        
 .main-menu .navbar-collapse > .navigation li.dropdown .dropdown-btn{
-    display:block;
+    display:none;
 }  
     
  
@@ -1503,13 +1504,29 @@
     display: none;
 }
    
-    
-
+.main-menu .navbar-collapse {
+        position: relative;
+        z-index: 9999 !important;
+        background: #1a7a17; 
+    }   
+   .header-style1-logo:before {
+        display: none !important;
+    }
     
 }
 
 
 
+@media only screen and (max-width: 991px){
+    .header-style1-logo {
+        z-index: 0 !important;
+    }
+
+    .main-menu {
+        z-index: 5 !important;
+        position: relative;
+    }
+}
 
 
 
