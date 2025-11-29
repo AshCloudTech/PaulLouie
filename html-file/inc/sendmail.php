@@ -1,77 +1,64 @@
 <?php
 
-require_once('phpmailer/class.phpmailer.php');
-require_once('phpmailer/class.smtp.php');
+require_once('./phpmailer/class.phpmailer.php');
+require_once('./phpmailer/class.smtp.php');
 
 $mail = new PHPMailer();
+$mail->isSMTP();
 
-//$mail->SMTPDebug = 3; // Enable verbose debug output
-$mail->isSMTP(); // Set mailer to use SMTP
-$mail->Host = 'steelthemes.com'; // Specify main and backup SMTP servers
-$mail->SMTPAuth = true; // Enable SMTP authentication
-$mail->Username = 'cform@steelthemes.com'; // SMTP username
-$mail->Password = 'AsDf12**'; // SMTP password
-$mail->SMTPSecure = true; // Enable TLS encryption, `ssl` also accepted
-$mail->Port = 465; // TCP port to connect to
+// ---------------------- SMTP CONFIG ----------------------
 
-$message = "";
-$status = "false";
+$mail->Host = '';            // e.g., 'smtp.gmail.com'
+$mail->SMTPAuth = true;
+$mail->Username = '';        // SMTP username
+$mail->Password = '';        // SMTP password
+$mail->SMTPSecure = 'tls';   // or 'ssl'
+$mail->Port = 587;           // SMTP port
+$mail->isHTML(true);         // Important: send HTML emails
 
-if( $_SERVER['REQUEST_METHOD'] == 'POST' ) {
- if( $_POST['form_name'] != '' AND $_POST['form_email'] != '' AND $_POST['form_subject'] != '' ) {
+// ---------------------- PROCESS FORM ----------------------
 
- $name = $_POST['form_name'];
- $email = $_POST['form_email'];
- $subject = $_POST['form_subject'];
- $phone = $_POST['form_phone'];
- $message = $_POST['form_message'];
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
- $subject = isset($subject) ? $subject : 'New Message | Contact Form';
+    $name             = $_POST['form_name'] ?? '';
+    $phone            = $_POST['form_phone'] ?? '';
+    $email            = $_POST['form_email'] ?? '';
+    $windows          = $_POST['windows'] ?? '';
+    $house_type       = $_POST['house_type'] ?? '';
+    $storeys          = $_POST['storeys'] ?? '';
+    $conservatory     = $_POST['conservatory'] ?? '';
+    $one_off_clean    = $_POST['one_off_clean'] ?? '';
+    $maintenance_type = $_POST['maintenance_type'] ?? '';
+    $message          = $_POST['form_message'] ?? '';
 
- $botcheck = $_POST['form_botcheck'];
+    $mail->SetFrom("", "Website Contact Form");
+    $mail->AddAddress("", "Website Enquiry");
 
- $toemail = 'templatecform@gmail.com'; // Your Email Address
- $toname = 'template_path'; // Your Name
+    $mail->AddReplyTo($email, $name);
 
- if( $botcheck == '' ) {
+    $mail->Subject = "New Enquiry Received";
 
- $mail->SetFrom( $email , $name );
- $mail->AddReplyTo( $email , $name );
- $mail->AddAddress( $toemail , $toname );
- $mail->Subject = $subject;
+    $body = "
+        <h2>New Enquiry</h2>
+        Name: $name <br>
+        Phone: $phone <br>
+        Email: $email <br>
+        Windows: $windows <br>
+        House Type: $house_type <br>
+        Storeys: $storeys <br>
+        Conservatory: $conservatory <br>
+        One-off Clean: $one_off_clean <br>
+        Maintenance Type: $maintenance_type <br>
+        Message: $message <br>
+    ";
 
- $name = isset($name) ? "Name: $name<br><br>" : '';
- $email = isset($email) ? "Email: $email<br><br>" : '';
- $phone = isset($phone) ? "Phone: $phone<br><br>" : '';
- $message = isset($message) ? "Message: $message<br><br>" : '';
+    $mail->MsgHTML($body);
 
- $referrer = $_SERVER['HTTP_REFERER'] ? '<br><br><br>This Form was submitted from: ' . $_SERVER['HTTP_REFERER'] : '';
-
- $body = "$name $email $phone $message $referrer";
-
- $mail->MsgHTML( $body );
- $sendEmail = $mail->Send();
-
- if( $sendEmail == true ):
- $message = 'We have <strong>successfully</strong> received your Message and will get Back to you as soon as possible.';
- $status = "true";
- else:
- $message = 'Email <strong>could not</strong> be sent due to some Unexpected Error. Please Try Again later.<br /><br /><strong>Reason:</strong><br />' . $mail->ErrorInfo . '';
- $status = "false";
- endif;
- } else {
- $message = 'Bot <strong>Detected</strong>.! Clean yourself Botster.!';
- $status = "false";
- }
- } else {
- $message = 'Please <strong>Fill up</strong> all the Fields and Try Again.';
- $status = "false";
- }
+    if ($mail->Send()) {
+        echo "SUCCESS";
+    } else {
+        echo "ERROR: " . $mail->ErrorInfo;
+    }
 } else {
- $message = 'An <strong>unexpected error</strong> occured. Please Try Again later.';
- $status = "false";
+    echo "Invalid request.";
 }
-
-$status_array = array( 'message' => $message, 'status' => $status);
-echo json_encode($status_array);
-?>
