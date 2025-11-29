@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Contact || Paul Louie || Responsive HTML 5 Template</title>
+    <title>Paul Louie Window Cleaning | Contact US</title>
 
     <!-- responsive meta -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
