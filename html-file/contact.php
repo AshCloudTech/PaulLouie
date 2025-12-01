@@ -32,7 +32,6 @@
 <body>
     <div class="boxed_wrapper">
 
-        <div class="preloader"></div>
 
         <!-- Start Top Bar style1 -->
         <section class="top-bar-style1">
@@ -43,23 +42,29 @@
                             <div class="top-left-style1 float-left clearfix">
                                 <ul class="top-contact-info fix">
 
-                                    <li><i class="fa fa-phone-square" aria-hidden="true"></i>07899040219</li>
+                                    <li><i class="fa fa-phone-square" aria-hidden="true"></i><a href="tel:07899040219" style="color: black;">07899040219</a></li>
                                     <li><i class="fa fa-clock-o" aria-hidden="true"></i>Mon - Sat 8.00am - 6.00pm</li>
+                                    <li>
+                                        <a href="https://wa.me/07899040219" target="_blank" title="Chat on WhatsApp " style="color:#25D366;">
+                                            <i class="fa fa-whatsapp" aria-hidden="true"></i>
+                                        </a>
+                                    </li>
+
                                 </ul>
                             </div>
 
                             <div class="top-right-style1 float-right">
                                 <ul class="sociallinks-style-one float-left fix">
+                                    <!-- 
+                            <li>
+                                <a href="https://wa.me/447899040219" target="_blank" title="Chat on WhatsApp ">
+                                    <i class="fa fa-whatsapp" aria-hidden="true"></i>
+                                </a>
+                            </li> -->
 
-                                    <li>
-                                        <a href="https://wa.me/447899040219" target="_blank" title="Chat on WhatsApp">
-                                            <i class="fa fa-whatsapp" aria-hidden="true" style="color:#25D366;"></i>
-                                        </a>
-                                    </li>
+                                    <!-- <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li> -->
 
-                                    <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-
-                                    <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                                    <!-- <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li> -->
 
                                 </ul>
                             </div>
@@ -70,11 +75,12 @@
         </section>
         <!-- End Top Bar style1 -->
 
+
         <!--Start header style1 area-->
         <header class="header-style1-area stricky">
             <div class="container">
                 <div class="row">
-                    <div class="col-xl-12 col-lg-12 col-md-12">
+                    <div class="col-xl-12 col-lg-12 col-md-12" style="z-index: 999999;">
                         <div class="header-style1 clearfix">
                             <div class="header-style1-logo float-left">
                                 <a href="index.html">
@@ -103,12 +109,12 @@
                                             </li>
                                             <li class="dropdown"><a href="about.html">About Us</a>
                                             </li>
-                                            <li><a href=" contact.php">Contact</a></li>
+                                            <li class="mobile-contact-only"><a href="contact.php">Contact Us</a></li>
                                         </ul>
                                     </div>
                                 </nav>
                                 <div class="headers1-button">
-                                    <a class="btn-one" href="contact.php">Request a Quote</a>
+                                    <a class="btn-one" href="contact.php">Contact Us</a>
                                 </div>
                             </div>
                         </div>
@@ -159,7 +165,7 @@
     transition: all .4s ease;
     z-index: 99999;
 ">
-            <div style="font-size: 16px; font-weight: 600;">Enquiry Sent Successfully!</div>
+            <div style="font-size: 16px; font-weight: 600;"> Thanks! Your message has been sent.</div>
 
             <!-- Countdown Line -->
             <div id="toast-timer" style="
@@ -175,11 +181,11 @@
         <!--Start contact form area-->
         <section class="contact-info-area">
             <div class="container">
-                <div class="sec-title text-center">
+                <!-- <div class="sec-title text-center">
                     <div class="start-icon"><img src="images/icon/title-star.png" alt="Icon"></div>
                     <p>Contact with us</p>
                     <div class="title">Enquire Now</div>
-                </div>
+                </div> -->
 
                 <div class="row">
                     <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
@@ -191,7 +197,7 @@
                                     <div class="col-md-12">
                                         <label>Your Name</label>
                                         <div class="input-box">
-                                            <input type="text" name="form_name" placeholder="Enter your name" required>
+                                            <input type="text" name="form_name" placeholder="e.g. Paul louie" required>
                                             <div class="icon"><i class="fa fa-user" aria-hidden="true"></i></div>
                                         </div>
                                     </div>
@@ -202,14 +208,14 @@
                                     <div class="col-md-6">
                                         <label>Mobile</label>
                                         <div class="input-box">
-                                            <input type="text" name="form_phone" placeholder="Enter mobile number">
+                                            <input type="text" name="form_phone" placeholder="e.g. 07123 456789">
                                             <div class="icon"><i class="fa fa-phone" aria-hidden="true"></i></div>
                                         </div>
                                     </div>
                                     <div class="col-md-6">
                                         <label>Email</label>
                                         <div class="input-box">
-                                            <input type="email" name="form_email" placeholder="Enter email address" required>
+                                            <input type="email" name="form_email" placeholder="e.g. paullouie@example.com" required>
                                             <div class="icon"><i class="fa fa-envelope" aria-hidden="true"></i></div>
                                         </div>
                                     </div>
@@ -310,7 +316,7 @@
                                     <div class="col-md-12">
                                         <label>Additional Comments</label>
                                         <div class="input-box">
-                                            <textarea name="form_message" placeholder="Your message..." required></textarea>
+                                            <textarea name="form_message" placeholder="e.g. Please provide a quote for monthly window cleaning." required></textarea>
                                             <div class="icon"><i class="fa fa-comment"></i></div>
                                         </div>
                                     </div>
@@ -342,19 +348,19 @@
                     <div class="col-xl-4 col-lg-4">
                         <div class="single-address-box">
                             <h3>About Us</h3>
-                            <p>Morbi ut tellus ac leo molestie luctus nec vehicu sed justo onec tempor volutpat ras lorem.</p>
+                            <p>With over 10 years of professional window cleaning experience, we proudly serve customers across Cheshire.</p>
                         </div>
                     </div>
-                    <div class="col-xl-4 col-lg-4">
+                    <!-- <div class="col-xl-4 col-lg-4">
                         <div class="single-address-box">
                             <h3>Our Address</h3>
                             <p>666 Road Broklyn Street, 88 New York. United States of America</p>
                         </div>
-                    </div>
+                    </div> -->
                     <div class="col-xl-4 col-lg-4">
                         <div class="single-address-box">
                             <h3>Contact Info</h3>
-                            <p>Email: paullouiegeneral@gmail.com<br> Phone: 07899040219<br> Fax: 888 999 0000</p>
+                            <p>Email: paullouiegeneral@gmail.com<br> Phone: 07899040219<br></p>
                         </div>
                     </div>
                 </div>
@@ -388,87 +394,54 @@
             </div>
         </section>
         <!--End Google Map Area-->
-
         <!--Start footer area-->
-        <footer class="footer-area">
-            <div class="anim-icons">
-                <div class="icon start-1 wow zoomIn"></div>
-                <div class="icon start-2 wow fadeInRight" data-wow-duration="3000ms"></div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <!--Start single footer widget-->
-                    <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12">
-                        <div class="single-footer-widget marbtm50">
-                            <div class="footer-logo" style="width: 155px;">
-                                <a href="index.html">
-                                    <img src="images/resources/logo.jpeg" alt="Awesome Logo">
-                                </a>
-                            </div>
-                            <div class="company-info">
-                                <div class="text-box">
-                                    <p>Keep your home looking great with our wide range of expert cleaning services.</p>
-                                </div>
-                                <div class="footer-button">
-                                    <a class="btn-one" href="contact.php">Request a Quote</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!--End single footer widget-->
-                    <!--Start single footer widget-->
-                    <div class="col-xl-2 col-lg-6 col-md-6 col-sm-12">
-                        <div class="single-footer-widget marbtm50">
-                            <div class="title">
-                                <h3>Links</h3>
-                            </div>
-                            <ul class="pages-links">
-                                <li><a href="#">Why Choose Us</a></li>
-                                <li><a href="#">About Us</a></li>
-                                <li><a href="#">Price Guide</a></li>
-                                <li><a href="#">News</a></li>
-                                <li><a href="#">Sitemap</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <!--End single footer widget-->
-                    <!--Start single footer widget-->
-                    <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12">
-                        <div class="single-footer-widget">
-                            <div class="title">
-                                <h3>You have any Question?</h3>
-                            </div>
-                            <ul class="contact-info">
-                                <li>
-                                    <span>Get a Quote</span>
-                                    <h3>07899040219</h3>
-                                </li>
-                                <li>
-                                    <span>Send us Email</span>
-                                    <h3>paullouiegeneral@gmail.com</h3>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <!--End single footer widget-->
-                    <!--Start single footer widget-->
-                    <div class="col-xl-2 col-lg-6 col-md-6 col-sm-12">
-                        <div class="single-footer-widget pdtop50">
-                            <div class="title">
-                                <h3>Legal</h3>
-                            </div>
-                            <ul class="legal-links">
-                                <li><a href="#">FAQs</a></li>
-                                <li><a href="#">Privacy Policy</a></li>
-                                <li><a href="#">Terms of Use</a></li>
-                            </ul>
+        <footer class="new-footer">
+            <div class="footer-container">
 
-                        </div>
+                <!-- Column 1 -->
+                <div class="footer-col">
+                    <div class="footer-logo">
+                        <a href="index.html">
+                            <img src="images/resources/logo.jpeg" alt="Logo">
+                        </a>
                     </div>
-                    <!--End single footer widget-->
+                    <p class="footer-text">
+                        Keep your home looking great with our wide range of expert cleaning services.
+                    </p>
+                    <a class="footer-btn" href="contact.php">Contact Us</a>
+                </div>
+
+                <!-- Column 2 -->
+                <div class="footer-col">
+                    <h3 class="footer-title">Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="services.html">Why Choose Us</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <!-- <li><a href="contact.php">Contact Us</a></li> -->
+                    </ul>
+                </div>
+
+                <!-- Column 3 -->
+                <div class="footer-col">
+                    <h3 class="footer-title">You have any Question?</h3>
+
+                    <div class="footer-contact-item">
+                        <span>Get a Quote</span>
+                        <a href="tel:07899040219" class="footer-contact-value">
+                            07899040219
+                        </a>
+                    </div>
+
+                    <div class="footer-contact-item">
+                        <span>Send us Email</span>
+                        <a href="mailto:paullouiegeneral@gmail.com" class="footer-contact-value">
+                            paullouiegeneral@gmail.com
+                        </a>
+                    </div>
                 </div>
             </div>
         </footer>
+
         <!--End footer area-->
 
         <!--Start footer bottom area-->
@@ -479,18 +452,22 @@
                         <div class="inner clearfix">
                             <div class="footer-social-links float-left">
                                 <ul class="sociallinks-style-one fix float-left">
-                                    <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                                    <!-- <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li> -->
                                     <li>
-                                        <a href="https://wa.me/447899040219" target="_blank" title="Chat on WhatsApp">
+                                        <a href="https://wa.me/07899040219" target="_blank" title="Chat on WhatsApp">
                                             <i class="fa fa-whatsapp" aria-hidden="true" style="color:#25D366;"></i>
                                         </a>
                                     </li>
-                                    <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                                    <!-- <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li> -->
                                 </ul>
                             </div>
+
+
                             <div class="copyright-text float-right">
-                                <p>© Copyright 2019 by <a href="#">PaulLouie.com</a></p>
+                                <p>Powered by <a href="https://www.cloudtechnologiesltd.com">Cloud Technologies</a> Ltd</p>
+                                <p>© Copyright 2025 by <a href="#">PaulLouie</a></p>
                             </div>
+
                         </div>
                     </div>
                 </div>
