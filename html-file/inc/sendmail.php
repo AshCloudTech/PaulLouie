@@ -7,17 +7,15 @@ $mail = new PHPMailer();
 $mail->isSMTP();
 
 // ---------------------- SMTP CONFIG ----------------------
-
-$mail->Host = '';            // e.g., 'smtp.gmail.com'
-$mail->SMTPAuth = true;
-$mail->Username = '';        // SMTP username
-$mail->Password = '';        // SMTP password
-$mail->SMTPSecure = 'tls';   // or 'ssl'
-$mail->Port = 587;           // SMTP port
-$mail->isHTML(true);         // Important: send HTML emails
+$mail->Host       = 'smtp.hostinger.com';
+$mail->SMTPAuth   = true;
+$mail->Username   = 'contact@cloudtechnologiesltd.com';
+$mail->Password   = '@Cloudtech123';
+$mail->SMTPSecure = 'ssl';
+$mail->Port       = 465;
+$mail->isHTML(true);
 
 // ---------------------- PROCESS FORM ----------------------
-
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     $name             = $_POST['form_name'] ?? '';
@@ -31,25 +29,29 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $maintenance_type = $_POST['maintenance_type'] ?? '';
     $message          = $_POST['form_message'] ?? '';
 
-    $mail->SetFrom("", "Website Contact Form");
-    $mail->AddAddress("", "Website Enquiry");
 
+    $mail->SetFrom("contact@cloudtechnologiesltd.com", "Website Contact Form");
+
+
+    $mail->AddAddress("contact@cloudtechnologiesltd.com", "Website Enquiry");
+
+    // Reply-to user
     $mail->AddReplyTo($email, $name);
 
     $mail->Subject = "New Enquiry Received";
 
     $body = "
         <h2>New Enquiry</h2>
-        Name: $name <br>
-        Phone: $phone <br>
-        Email: $email <br>
-        Windows: $windows <br>
-        House Type: $house_type <br>
-        Storeys: $storeys <br>
-        Conservatory: $conservatory <br>
-        One-off Clean: $one_off_clean <br>
-        Maintenance Type: $maintenance_type <br>
-        Message: $message <br>
+        <strong>Name:</strong> $name <br>
+        <strong>Phone:</strong> $phone <br>
+        <strong>Email:</strong> $email <br>
+        <strong>Windows:</strong> $windows <br>
+        <strong>House Type:</strong> $house_type <br>
+        <strong>Storeys:</strong> $storeys <br>
+        <strong>Conservatory:</strong> $conservatory <br>
+        <strong>One-off Clean:</strong> $one_off_clean <br>
+        <strong>Maintenance Type:</strong> $maintenance_type <br>
+        <strong>Message:</strong> $message <br>
     ";
 
     $mail->MsgHTML($body);
