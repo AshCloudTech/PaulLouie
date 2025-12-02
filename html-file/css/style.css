@@ -983,7 +983,7 @@ select:focus {
     display: inline-block;
     float: left;
     margin-right: 40px;
-    color: #d0bee5;
+    color: #000000;
     font-size: 13px;
     font-weight: 700;
     line-height: 26px;
@@ -1016,7 +1016,7 @@ select:focus {
 ===============================================*/
 .header-style1-area {
     display: block;
-    background: #f0f0f0;
+    background: #d2cece;
     padding: 0;
 }
 .header-style1 {
@@ -1048,7 +1048,7 @@ select:focus {
     left: -50000px;
     bottom: 0;
     right: 0;
-    background: #f8f5f2;
+    background: #d2cece;
     content: "";
     z-index: -1;
 }
@@ -1486,22 +1486,23 @@ select:focus {
 }
 
 
-
 /* Footer Base */
 .new-footer {
     background: #67ad39;
     color: #ffffff;
-    padding: 50px 20px;
+    padding: 40px 20px;  /* Reduced padding to make it more compact */
     font-family: sans-serif;
 }
 
+/* Footer Container */
 .footer-container {
     max-width: 1200px;
-    margin: auto;
+    margin: 0 auto; /* Centered container */
     display: flex;
     flex-wrap: wrap;
     gap: 40px;
     justify-content: space-between;
+    text-align: left; /* Left-aligned text for desktop */
 }
 
 /* Columns */
@@ -1542,8 +1543,8 @@ select:focus {
 /* Titles */
 .footer-title {
     font-size: 20px;
-    margin-bottom: 15px;
-    font-weight: 600;
+    /* margin-bottom: 15px;
+    font-weight: 600; */
 }
 
 /* Links */
@@ -1591,17 +1592,16 @@ select:focus {
 }
 
 /* Mobile Responsive */
-/* Mobile Responsive */
 @media (max-width: 768px) {
     .footer-container {
-        flex-direction: column;
-        gap: 2px;
-        align-items: center; /* Center all columns */
+        flex-direction: column; /* Stack columns vertically */
+        gap: 20px;  /* Reduced gap between columns */
+        align-items: center;  /* Center the columns */
         text-align: center;  /* Center text inside columns */
     }
 
     .footer-col {
-        flex: 0 0 100%; /* Full width columns */
+        flex: 1 1 100%; /* Full width columns */
         min-width: auto;
     }
 
@@ -1634,6 +1634,21 @@ select:focus {
         text-align: center; /* Center contact text */
     }
 }
+
+@media (max-width: 480px) {
+    .footer-text {
+        font-size: 14px; /* Smaller text on mobile */
+    }
+
+    .footer-title {
+        font-size: 18px; /* Smaller title size */
+    }
+
+    .footer-btn {
+        font-size: 14px; /* Smaller button size */
+    }
+}
+
 
 
 
@@ -5190,4 +5205,32 @@ box-shadow: 0px 3px 5px 2px #f8f8f8;
 
 .btn-quote:hover {
     background: #e6eef7;
+}
+
+/* Sticky WhatsApp Icon */
+.whatsapp-icon {
+  position: fixed;
+  bottom: 40px;
+  right: 20px;
+  z-index: 1000;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #25D366;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+}
+
+.whatsapp-icon:hover {
+  transform: scale(1.1);
+}
+
+.whatsapp-icon img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
 }
