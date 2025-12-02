@@ -33,6 +33,7 @@
     <div class="boxed_wrapper">
 
 
+
         <!-- Start Top Bar style1 -->
         <section class="top-bar-style1">
             <div class="container">
@@ -44,11 +45,7 @@
 
                                     <li><i class="fa fa-phone-square" aria-hidden="true"></i><a href="tel:07899040219" style="color: black;">07899040219</a></li>
                                     <li><i class="fa fa-clock-o" aria-hidden="true"></i>Mon - Sat 8.00am - 6.00pm</li>
-                                    <li>
-                                        <a href="https://wa.me/07899040219" target="_blank" title="Chat on WhatsApp " style="color:#25D366;">
-                                            <i class="fa fa-whatsapp" aria-hidden="true"></i>
-                                        </a>
-                                    </li>
+
 
                                 </ul>
                             </div>
@@ -402,28 +399,29 @@
                 <div class="footer-col">
                     <div class="footer-logo">
                         <a href="index.html">
-                            <img src="images/resources/logo.jpeg" alt="Logo">
+                            <img src="images/resources/logo2.png" alt="Logo">
                         </a>
                     </div>
                     <p class="footer-text">
                         Keep your home looking great with our wide range of expert cleaning services.
                     </p>
-                    <a class="footer-btn" href="contact.php">Contact Us</a>
+
                 </div>
 
                 <!-- Column 2 -->
                 <div class="footer-col">
-                    <h3 class="footer-title">Links</h3>
+                    <h3 class="footer-title" style="color: #024589;">Company</h3>
                     <ul class="footer-links">
                         <li><a href="services.html">Why Choose Us</a></li>
                         <li><a href="about.html">About Us</a></li>
-                        <!-- <li><a href="contact.php">Contact Us</a></li> -->
+                        <a class="footer-btn" href="contact.php">Contact Us</a>
                     </ul>
                 </div>
 
                 <!-- Column 3 -->
                 <div class="footer-col">
-                    <h3 class="footer-title">You have any Question?</h3>
+
+                    <h3 class="footer-title" style="color: #024589;">You have any Question?</h3>
 
                     <div class="footer-contact-item">
                         <span>Get a Quote</span>
@@ -450,21 +448,13 @@
                 <div class="row">
                     <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
                         <div class="inner clearfix">
-                            <div class="footer-social-links float-left">
-                                <ul class="sociallinks-style-one fix float-left">
-                                    <!-- <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li> -->
-                                    <li>
-                                        <a href="https://wa.me/07899040219" target="_blank" title="Chat on WhatsApp">
-                                            <i class="fa fa-whatsapp" aria-hidden="true" style="color:#25D366;"></i>
-                                        </a>
-                                    </li>
-                                    <!-- <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li> -->
-                                </ul>
+                            <div class=" copyright-text footer-social-links float-left">
+                                <p>Powered by <a href="https://www.cloudtechnologiesltd.com">Cloud Technologies</a> Ltd</p>
                             </div>
 
 
                             <div class="copyright-text float-right">
-                                <p>Powered by <a href="https://www.cloudtechnologiesltd.com">Cloud Technologies</a> Ltd</p>
+
                                 <p>© Copyright 2025 by <a href="#">PaulLouie</a></p>
                             </div>
 
@@ -592,7 +582,9 @@
             });
         });
     </script>
-
+    <a href="https://wa.me/07899040219" target="_blank" title="Chat on WhatsApp" class="whatsapp-icon">
+        <img src="images/resources/whatsapp.avif" alt="WhatsApp" />
+    </a>
 
 </body>
 
