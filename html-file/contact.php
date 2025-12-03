@@ -582,9 +582,10 @@
             });
         });
     </script>
-    <a href="https://wa.me/07899040219" target="_blank" title="Chat on WhatsApp" class="whatsapp-icon">
+    <a href="https://wa.me/447899040219" target="_blank" title="Chat on WhatsApp" class="whatsapp-icon">
         <img src="images/resources/whatsapp.avif" alt="WhatsApp" />
     </a>
+
 
 </body>
 
